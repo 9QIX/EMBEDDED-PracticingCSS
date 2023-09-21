@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+}
+
+#name {
+  font-family: [downloaded font name];
+  font-size: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #name {
+    font-size: 40px;
+  }
+}
