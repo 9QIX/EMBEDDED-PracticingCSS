@@ -1,0 +1,65 @@
+/* Styles for the centered container */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+/* Styles for the Google logo container */
+.google-logo {
+  display: flex;
+  align-items: center;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 10vw; /* Adjust font size based on viewport width */
+  font-weight: bold;
+  color: #4285f4;
+  text-align: center; /* Center text horizontally */
+}
+
+/* Styles for each letter */
+.g,
+.o1,
+.o2,
+.g2,
+.l,
+.e {
+  margin: 0 5vw; /* Adjust letter spacing based on viewport width */
+}
+
+.o1 {
+  color: #34a853;
+}
+
+.o2 {
+  color: #f4b400;
+}
+
+.g2 {
+  color: #4285f4;
+}
+
+.l {
+  color: #34a853;
+}
+
+.e {
+  color: #ea4335;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .google-logo {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust letter spacing for smaller screens */
+  .g,
+  .o1,
+  .o2,
+  .g2,
+  .l,
+  .e {
+    margin: 0 4px;
+  }
+}

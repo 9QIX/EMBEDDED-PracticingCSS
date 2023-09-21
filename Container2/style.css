@@ -1,0 +1,21 @@
+/* Styles for the container */
+.netflix-container {
+  width: 100%;
+  padding-top: 56.25%;
+  background-color: #000; /* Set the background color to black */
+  background-image: url("/Container2/img/netflix-logo.svg");
+  background-size: 40%; /* Set the background image size to 40% of the container */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: #000;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .netflix-container {
+    padding-top: 100%;
+  }
+}
