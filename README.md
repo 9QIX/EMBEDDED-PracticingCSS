@@ -35,11 +35,3 @@ Please follow the provided HTML and CSS code for each container to achieve the s
 ## Usage 🚀
 
 You can simply clone this repository and open the HTML files in a web browser to view the containers. Each container's design and functionality are demonstrated through HTML and CSS.
-
-## Contributing 🤝
-
-Feel free to contribute to this project by improving existing containers or adding new ones. Create a pull request to suggest changes or enhancements.
-
-## License 📜
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
