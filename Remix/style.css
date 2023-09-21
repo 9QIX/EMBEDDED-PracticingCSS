@@ -1,0 +1,136 @@
+/* Reset default margin and padding */
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the main container */
+.container {
+  width: 50%; /* Each container takes up 50% of the viewport width */
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  height: 50vh; /* 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the Google logo container */
+.google-logo {
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 6vw; /* Adjust font size based on viewport width */
+  font-weight: bold;
+}
+
+/* Styles for each letter */
+.g,
+.o1,
+.o2,
+.g2,
+.l,
+.e {
+  margin: 0 4px; /* Adjust letter spacing */
+}
+.g {
+  color: #4285f4;
+}
+.o1 {
+  color: #34a853;
+}
+.o2 {
+  color: #f4b400;
+}
+.g2 {
+  color: #4285f4;
+}
+.l {
+  color: #34a853;
+}
+.e {
+  color: #ea4335;
+}
+
+/* Styles for the Netflix container */
+.netflix-container {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("/Remix/img/netflix-logo.svg");
+  background-size: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Styles for the 8 Boxes container */
+#box-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next row on smaller screens */
+  justify-content: center;
+  align-items: center;
+  max-width: 600px; /* Limit the container width for responsiveness */
+  margin: 0 auto;
+  padding: 20px; /* Add padding for spacing on smaller screens */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.box:nth-child(1) {
+  background-color: red;
+}
+.box:nth-child(2) {
+  background-color: orange;
+}
+.box:nth-child(3) {
+  background-color: rgb(160, 160, 35);
+}
+.box:nth-child(4) {
+  background-color: green;
+}
+.box:nth-child(5) {
+  background-color: blue;
+}
+.box:nth-child(6) {
+  background-color: indigo;
+}
+.box:nth-child(7) {
+  background-color: violet;
+}
+.box:nth-child(8) {
+  background-color: teal;
+}
+
+/* Styles for Your Name container */
+#name-container {
+  width: 80%; /* Adjust to your desired width */
+}
+
+#name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* On smaller screens, each container takes up 100% of the viewport width */
+  }
+}
